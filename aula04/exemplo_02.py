@@ -3,7 +3,7 @@
 # caso contrario, aumento de 9%
 
 tempo = float(input("Informe seu tempo de casa: "))
-setor = input("Informe o seu setor: ").upper()  # definir entrada para maiusculo
+setor = input("Informe o seu setor: ").strip().upper()  # upper = definir entrada para maiusculo  strip = anula espaço vazip
 salario = float(input("Informe seu selário: "))
 
 if setor == "A" and tempo >= 3:  # "and" define todas as condições como verdadeira para entrar no if e "or" para qualquer uma das condições serem aceitas
